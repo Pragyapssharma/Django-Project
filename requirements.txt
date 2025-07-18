@@ -45,6 +45,7 @@ pydantic_core==2.33.2
 python-dateutil==2.8.2
 python-dotenv==1.1.0
 python-multipart==0.0.6
+pytz==2024.1
 PyYAML==6.0.2
 requests==2.32.4
 rsa==4.9.1
@@ -58,6 +59,6 @@ typing-inspection==0.4.1
 typing_extensions==4.14.0
 urllib3==2.4.0
 uvicorn==0.24.0
-uvloop==0.21.0
+#uvloop==0.21.0
 watchfiles==1.0.5
 websockets==15.0.1
