@@ -11,5 +11,5 @@
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/pragyapssharma/RailSathiBE.git
+git clone https://github.com/Pragyapssharma/Django-Project
 cd RailSathiBE
