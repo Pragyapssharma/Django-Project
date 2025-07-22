@@ -4,7 +4,7 @@ services:
   db:
     image: postgres:14
     environment:
-      POSTGRES_DB: postgres
+      POSTGRES_DB: practice
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: Postgres@123
     ports:
@@ -20,6 +20,9 @@ services:
       - .env
     depends_on:
       - db
+    command: ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+    volumes:
+      - .:/app
 
 volumes:
   postgres_data:
